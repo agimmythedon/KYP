@@ -52,15 +52,17 @@
       </a>
       
       <!-- Desktop Nav -->
-      <nav class="hidden lg:flex desktop-nav flex-wrap justify-end space-x-6 text-xs font-bold uppercase tracking-wider">
+      <nav class="hidden lg:flex desktop-nav flex-wrap justify-end space-x-5 text-[10px] xl:text-xs font-bold uppercase tracking-wider items-center">
         <a href="#home" class="hover:text-kyp-gold transition-colors py-1 border-b-2 border-transparent">Home</a>
         <a href="#about" class="hover:text-kyp-gold transition-colors py-1 border-b-2 border-transparent">About Us</a>
         <a href="#manifesto" class="hover:text-kyp-gold transition-colors py-1 border-b-2 border-transparent">Manifesto</a>
         <a href="#leadership" class="hover:text-kyp-gold transition-colors py-1 border-b-2 border-transparent">Leadership</a>
+        <a href="#public-reps" class="hover:text-kyp-gold transition-colors py-1 border-b-2 border-transparent">Public Reps</a>
         <a href="#media" class="hover:text-kyp-gold transition-colors py-1 border-b-2 border-transparent">Media</a>
         <a href="#activities" class="hover:text-kyp-gold transition-colors py-1 border-b-2 border-transparent">Activities</a>
         <a href="#partnership" class="hover:text-kyp-gold transition-colors py-1 border-b-2 border-transparent">Partnership</a>
         <a href="#contact" class="hover:text-kyp-gold transition-colors py-1 border-b-2 border-transparent">Contact Us</a>
+        <a href="#membership" class="bg-kyp-gold text-kyp-black px-3 py-1.5 rounded hover:bg-white transition-colors ml-2">Join KYP</a>
       </nav>
       
       <!-- Mobile Menu Toggle -->
@@ -76,10 +78,12 @@
         <a href="#about" class="p-4 border-b border-white/5" onclick="toggleMobileNav()">About Us</a>
         <a href="#manifesto" class="p-4 border-b border-white/5" onclick="toggleMobileNav()">Manifesto</a>
         <a href="#leadership" class="p-4 border-b border-white/5" onclick="toggleMobileNav()">Leadership</a>
+        <a href="#public-reps" class="p-4 border-b border-white/5" onclick="toggleMobileNav()">Public Reps</a>
         <a href="#media" class="p-4 border-b border-white/5" onclick="toggleMobileNav()">Media</a>
         <a href="#activities" class="p-4 border-b border-white/5" onclick="toggleMobileNav()">Activities</a>
         <a href="#partnership" class="p-4 border-b border-white/5" onclick="toggleMobileNav()">Partnership</a>
         <a href="#contact" class="p-4 border-b border-white/5" onclick="toggleMobileNav()">Contact Us</a>
+        <a href="#membership" class="p-4 bg-kyp-gold text-kyp-black" onclick="toggleMobileNav()">Join KYP</a>
       </nav>
     </div>
   </header>
@@ -334,6 +338,7 @@
                   <li class="flex items-center text-kyp-purple"><i data-lucide="check-circle" class="w-4 h-4 mr-2 text-kyp-gold"></i> President</li>
                   <li class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 mr-2 text-kyp-purple"></i> Deputy President</li>
                   <li class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 mr-2 text-kyp-purple"></i> National Chairperson</li>
+                  <li class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 mr-2 text-kyp-purple"></i> Secretary General</li>
                   <li class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 mr-2 text-kyp-purple"></i> Treasurer General</li>
                   <li class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 mr-2 text-kyp-purple"></i> NEC Members</li>
                   <li class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 mr-2 text-kyp-purple"></i> Provincial Leadership (9)</li>
@@ -344,7 +349,7 @@
          
          <!-- Leadership Grid -->
          <div class="lg:w-3/4">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 text-center">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 text-center">
                <!-- Card 1 -->
                <div class="bg-white border border-gray-100 rounded shadow-sm p-4 hover:shadow-md transition-shadow cursor-pointer">
                   <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=300" class="w-full aspect-square object-cover rounded-full border-4 border-gray-50 mb-4 mx-auto max-w-[200px]" />
@@ -365,6 +370,12 @@
                </div>
                <!-- Card 4 -->
                <div class="bg-white border border-gray-100 rounded shadow-sm p-4 hover:shadow-md transition-shadow cursor-pointer">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" class="w-full aspect-square object-cover rounded-full border-4 border-gray-50 mb-4 mx-auto max-w-[200px]" />
+                  <h4 class="font-bold text-gray-900 tracking-wide">Mr. J. Smith</h4>
+                  <p class="text-xs font-bold text-kyp-gold mt-1 uppercase tracking-widest">SECRETARY GENERAL</p>
+               </div>
+               <!-- Card 5 -->
+               <div class="bg-white border border-gray-100 rounded shadow-sm p-4 hover:shadow-md transition-shadow cursor-pointer">
                   <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=300" class="w-full aspect-square object-cover rounded-full border-4 border-gray-50 mb-4 mx-auto max-w-[200px]" />
                   <h4 class="font-bold text-gray-900 tracking-wide">Mrs. C. Jacobs</h4>
                   <p class="text-xs font-bold text-kyp-gold mt-1 uppercase tracking-widest">TREASURER GENERAL</p>
@@ -383,7 +394,24 @@
       </div>
     </section>
 
-    <!-- PAGE 8: MEDIA CENTRE -->
+    <!-- PAGE 5: PUBLIC REPRESENTATIVES -->
+    <section id="page-public-reps" class="page-section">
+      <div class="bg-kyp-black text-kyp-white py-12 px-4 shadow-inner">
+         <div class="max-w-7xl mx-auto">
+            <h1 class="text-3xl font-black uppercase tracking-widest border-b-[3px] border-kyp-gold pb-2 inline-block">PUBLIC REPRESENTATIVES</h1>
+         </div>
+      </div>
+      <div class="max-w-7xl mx-auto px-4 md:px-8 py-32 text-center min-h-[50vh] flex flex-col items-center justify-center">
+         <i data-lucide="shield-alert" class="w-20 h-20 text-kyp-gold mb-6"></i>
+         <h2 class="text-2xl font-black uppercase tracking-widest text-kyp-purple mb-4">CURRENTLY INACTIVE</h2>
+         <p class="text-gray-500 max-w-xl mx-auto">This section will display our elected public representatives once they have taken office. Stay tuned as we build our team of ethical leaders.</p>
+         <button onclick="navigateToPath('home')" class="mt-8 border-2 border-kyp-purple text-kyp-purple font-bold py-3 px-8 hover:bg-kyp-purple hover:text-white transition-colors uppercase tracking-widest text-sm">
+            RETURN TO HOME
+         </button>
+      </div>
+    </section>
+
+    <!-- PAGE 6: MEDIA CENTRE -->
     <section id="page-media" class="page-section">
       <div class="bg-kyp-purple text-kyp-white py-12 px-4 shadow-inner">
          <div class="max-w-7xl mx-auto">
